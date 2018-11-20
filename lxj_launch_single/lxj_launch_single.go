@@ -1,7 +1,7 @@
 /* Launch a single named VM.  Then pull it's IP from lxc info and append it as a
 property to the end of a properties file */
 
-package  "main"
+package main
 
 import (
 	"fmt"
