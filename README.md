@@ -12,8 +12,6 @@ Make sure you have set GOPATH before attempting to  download and use packages.
  
 ```
 
-
-
 ### Use the Sample Library as imported package
 
 ```
@@ -21,9 +19,19 @@ Make sure you have set GOPATH before attempting to  download and use packages.
 import "github.com/joeatbayes/GOPackaging/sample_library"
 ```
 
+### Make & run Sample Program
 
+```
+go get "github.com/joeatbayes/GoPackaging/sample_library"
 
-### Build The Test Program:
+go build test_git_import.go
+
+.\test_git_import 
+```
+
+Use go get -u to fetch most recent changes of a library.
+
+### Important Files
 
 * [make_test_git_import.bat](make_test_git_import.bat) - Demonstrates using go get and go build commands.
 
@@ -32,4 +40,3 @@ import "github.com/joeatbayes/GOPackaging/sample_library"
 * [MemFree.go](sample_library/MemFree.go) - Sample source in a package imported from github
 
   
-
