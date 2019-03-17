@@ -9,13 +9,11 @@ Make sure you have set GOPATH before attempting to  download and use packages.
 
 ```
   go get -u "github.com/joeatbayes/GoPackaging/sample_library"
- 
 ```
 
 ### Use the Sample Library as imported package
 
 ```
-
 import "github.com/joeatbayes/GOPackaging/sample_library"
 ```
 
@@ -34,9 +32,12 @@ Use go get -u to fetch most recent changes of a library.
 ### Important Files
 
 * [make_test_git_import.bat](make_test_git_import.bat) - Demonstrates using go get and go build commands.
-
 * [test_git_import.go](test_git_import.go) - Sample program that requires package from github to build. 
-
 * [MemFree.go](sample_library/MemFree.go) - Sample source in a package imported from github
 
-  
+
+
+### License:
+
+Copyright 2018 Joseph Ellsworth  [MIT License](https://opensource.org/licenses/MIT) 
+
