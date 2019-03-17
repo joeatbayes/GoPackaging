@@ -1,14 +1,19 @@
+/* (C) Copyright 2019 Joe Ellsworth
+ MIT LICENSE  
+  Download use of library for use by GO get
+    go get "github.com/joeatbayes/GoPackaging/sample_library"
+ */
+ 
 package main
 
 import (
-  "bytes"
-  "fmt"
-  "regexp"
+  "fmt"  
 )
 
-import "github.com/GOPackaging/sample_library"
+import "github.com/joeatbayes/GOPackaging/sample_library"
 
 func main() {
   
-  fmt.Println("In test_git_import.go  MegabytesUsed=%f", sample_library.MBUsed())
+  fmt.Printf("In test_git_import.go  Megabytes Used=%.3f", 
+sample_library.MBUsed())
 }

@@ -4,9 +4,9 @@
 
 // Package stringutil contains utility functions for working with strings.
 // Include this package using: 
-//    import "github.com/GOPackaging/sample_library"
-// Download the package with import 
-//  go get github.com/GOPackaging
+//    import "github.com/joeatbayes/GOPackaging/sample_library"
+// Download the package with import
+//    go get -u "github.com/joeatbayes/GoPackaging/sample_library"
 
 package sample_library
 
